@@ -37,6 +37,11 @@ Web FE 생태계에는 새로운 패러다임과 기술들이 매우 빠르게 �
     - zotai
 
 ### 👩🏻‍💻 Writer
-**[Jimin Yoo(yoo-jimin127)](https://github.com/yoo-jimin127)**   
+<center>
+<img src="https://contrib.rocks/image?repo=yoo-jimin127/FrontEnd-PlayGround" /><br>
+<a href="https://github.com/yoo-jimin127"><b>Jimin Yoo(yoo-jimin127)</b></a>
+
 처음 접하고 공부하는 내용이 많아 잘못된 부분이 있을 수 있습니다.   
-오타 및 오류 내용에 대한 피드백은 대환영입니다!🙆🏻‍♀️ [issue](https://github.com/yoo-jimin127/FrontEnd-PlayGround/issues)에 남겨주세요!   
+오타 및 오류 내용에 대한 피드백은 대환영입니다!🙆🏻‍♀️    
+[issue](https://github.com/yoo-jimin127/FrontEnd-PlayGround/issues)에 남겨주세요!   
+</center>
