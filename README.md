@@ -9,7 +9,7 @@ Web FE 생태계에는 새로운 패러다임과 기술들이 매우 빠르게 �
     - NPM
     - Yarn classic
     - PNPM
-    - Yarn berry
+    - [Yarn berry](https://github.com/yoo-jimin127/FrontEnd-PlayGround/blob/main/Package%20Manager/04_YARN-berry.md)
 - Bundler
     - Webpack
     - RequireJS

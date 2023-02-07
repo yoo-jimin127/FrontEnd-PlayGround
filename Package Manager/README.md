@@ -45,7 +45,7 @@ node.js 환경의 패키지 매니저로 크게 npm과 yarn, pnpm이 존재하�
 [📚 npm 특징 정리 & 분석]()|
 [📚 Yarn classic 특징 정리 & 분석]()|
 [📚 pnpm 특징 정리 & 분석]()|
-[📚 Yarn Berry 특징 정리 & 분석]()|
+[📚 Yarn Berry 특징 정리 & 분석](https://github.com/yoo-jimin127/FrontEnd-PlayGround/blob/main/Package%20Manager/04_YARN-berry.md)|
 
 ## 📌 참고 자료
 - [package와 package manager 분석](https://velog.io/@gil0127/Package-%EC%99%80-Package-manager)
