@@ -76,7 +76,7 @@ node.js 환경의 패키지 매니저로 크게 npm과 yarn, pnpm이 존재하�
 1. `Node`가 **패키지를 검색할 때 잘 찾을 수 있도록 도와주는 역할**이 패키지 매니저의 일이라는 생각과   
 2. 패키지 매니저가 `node_modules` 디렉터리 구조를 만드는 것에 그치지 않고,     
 &nbsp;&nbsp;&nbsp;&nbsp;보다 **근본적이며 안전한 방법으로 의존성을 관리**하는 방법에 대해 고민한 결과    
-Plug'n'Play가 탄생했다.   
+&nbsp;&nbsp;&nbsp;&nbsp;Plug'n'Play가 탄생했다.   
 
 `Yarn Berry`에서는 `node_modules`를 생성하는 대신 의존성 lookup 파일인 `.pnp.cjs`를 생성한다.   
 - `.pnp.cjs` 파일의 포함 내용
