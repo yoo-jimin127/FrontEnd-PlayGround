@@ -6,9 +6,9 @@ Web FE 생태계에는 새로운 패러다임과 기술들이 매우 빠르게 �
 
 ### 💡 Contents
 - [Package Manager](https://github.com/yoo-jimin127/FrontEnd-PlayGround/blob/main/Package%20Manager/README.md)
-    - NPM
-    - Yarn classic
-    - PNPM
+    - [NPM](https://github.com/yoo-jimin127/FrontEnd-PlayGround/blob/main/Package%20Manager/01_NPM.md)
+    - [Yarn classic](https://github.com/yoo-jimin127/FrontEnd-PlayGround/blob/main/Package%20Manager/02_YARN-classic.md)
+    - [PNPM](https://github.com/yoo-jimin127/FrontEnd-PlayGround/blob/main/Package%20Manager/03_PNPM.md)
     - [Yarn berry](https://github.com/yoo-jimin127/FrontEnd-PlayGround/blob/main/Package%20Manager/04_YARN-berry.md)
 - Bundler
     - Webpack
