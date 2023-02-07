@@ -67,7 +67,7 @@ node.js 환경의 패키지 매니저로 크게 npm과 yarn, pnpm이 존재하�
     - 호이스팅에 따라 직접 의존하고 있지 않은 라이브러리를 `require()`할 수 있는 현상 : [유령 의존성](https://rushjs.io/pages/advanced/phantom_deps/)
     - `package.json`의 수정에 따라 의존성 관리 시스템이 혼란스러워질 가능성 ⬆️
 
-## 2️⃣ 본론 2 - 왜 Yarn Berry인가?(2)
+## 2️⃣ 본론 3 - 왜 Yarn Berry인가?(2)
 `Yarn Berry`는 위에서 언급한 `NPM`의 "깨져 있는" 패키지 관리 시스템을 개선하고자    
 적은 공간의 사용, 효율적인 의존성 검색을 목표로 출시되었다.   
 
@@ -109,7 +109,7 @@ $ yarn set version berry
 없는 의존성이나 더 이상 필요없는 의존성을 쉽게 찾을 수 있다.   
 또한 Zip 파일의 내용이 변경될 경우 체크섬과 비교해 쉽게 변경 여부를 감지할 수 있다.   
 
-## ▶️ 본문 - Yarn PnP 도입의 이점
+## 2️⃣ 본론 4 - Yarn PnP 도입의 이점
 1. **의존성 검색**
     - 의존성 검색 시 더 이상 `node_modules` 폴더의 순회가 필요 없다.
     - `.pnp.cjs`파일이 제공하는 자료구조를 이용해 의존성의 위치를 바로 찾는다. 
@@ -155,7 +155,7 @@ $ yarn set version berry
     !.yarn/versions
     ```
 
-## ▶️ Yarn Berry의 단점
+## 2️⃣ 본론 5 - Yarn Berry의 단점
 1. **여전히 PnP를 지원하지 않는 패키지 존재**
     - 프로젝트에 PnP를 지원하지 않는 패키지가 하나라도 존재한다면 PnP 방식일지라도 `node_modules`가 따라온다.
         - PnP를 지원하지 않는 패키지가 있을 경우,
@@ -170,7 +170,7 @@ $ yarn set version berry
         pnpMode: loose
         ```
 
-## ▶️ Yarn Berry 패키지 매니저 분석 후 필자의 견해
+## 3️⃣ 결론 - Yarn Berry 패키지 매니저 분석 후 필자의 견해
 우선 PnP를 적용해 기존 `npm`의 `node_modules`디렉토리의 설치가 필요 없이    
 패키지 환경을 구축할 수 있다는 점이 가장 큰 매력이라고 생각하였다.   
 매번 `npm` 또는 `yarn`으로 패키지 환경을 셋팅하면 git 상에서 clone을 받아 저장소의 코드를 사용할 때   
